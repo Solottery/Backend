@@ -1,0 +1,1322 @@
+[
+  {
+    "name": "Ticket: 1119",
+    "img": "https://www.arweave.net/4cNBM2MeC74I5vlQ9EVq2yn6hjWF4po1a5Ffv_54H9I?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "AAnPcRKZeZSpCzboMqquR2b9MqSCs5c7d71Sm4uVixo5",
+    "mint": "3JVhG5876jq4te7s8mDgNSmX1NSbTtEKiQEHf1ynEkLU",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 5100",
+    "img": "https://www.arweave.net/GPrR3N-x_Sx4a5B3rfLnCGf_fGihlmePe1lV0R31daE?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "5UZgXFmkL2bSoLi9kN8HQVsbp5wvFGLS4YJ5KruurVSZ",
+    "mint": "5qpcQQ2jEzrdxuAdwjRz4QKdSrjwzSFVNB7CET8WPuAm",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 2352",
+    "img": "https://www.arweave.net/nRbaB_pt8AkizK21J1V8UeyMGU6aCamLgZn-QQyxExE?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "5UZgXFmkL2bSoLi9kN8HQVsbp5wvFGLS4YJ5KruurVSZ",
+    "mint": "FJojzNocbpJQGwbbmx1ucDexnrU1dX4rkXwUE9ZZwrCj",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7935",
+    "img": "https://www.arweave.net/9YLr8uLZpAB_KCM8BEwaonkeU9-JBBmJBYDCBb9V7uk?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "5UZgXFmkL2bSoLi9kN8HQVsbp5wvFGLS4YJ5KruurVSZ",
+    "mint": "BuiQGKJNxnZv2qgeLJHs6NKpnhcuzgkCxwNawNcaZQTa",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 1691",
+    "img": "https://www.arweave.net/axZs2CRm3prK_u75YH-jM8uggCY5Nhn6b5G-6WWhY7M?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "9wETkH7EmdUCJ1vXMPwUJBqzHbGjijkpquA2kJEXwwEa",
+    "mint": "5nRv8tArsttr3J6kmfZSzAeAPwxLtMzk7CyybC8bBRhj",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 5713",
+    "img": "https://www.arweave.net/aAQsU9S60nYnwSd_WPVeFRs8dVrUD6TacUQ3ZpVm8JE?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "9wETkH7EmdUCJ1vXMPwUJBqzHbGjijkpquA2kJEXwwEa",
+    "mint": "D81mgupJ4sQQDtiNepMufAc76FubAg3hm87qQi3hSXUr",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 0300",
+    "img": "https://www.arweave.net/lIWSz4qOEPhUbu2y9eKq1gg3Wx-4ywBnuaDY-UQiqr8?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "5UZgXFmkL2bSoLi9kN8HQVsbp5wvFGLS4YJ5KruurVSZ",
+    "mint": "DNZhCy1EyG5A8bCUaYwwRJwPphZwR59V5PMCNUJCoCdr",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 0629",
+    "img": "https://www.arweave.net/D-Vt45UqOGbdyQhEsKk_YEKmRPMEPU0mfgZX1eR42Jc?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Blue Star",
+      "rarity": 6.666666666666667,
+      "name": "TicketType"
+    },
+    "owner": "Gbx4C4f6vSTjEnqfdCWp1XNHzRHURqoqSQz77bkWYsNe",
+    "mint": "y3cSi7fifBSe6e6e5SFw5TAVzfo1zSMSUt32r3ifENA",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 9609",
+    "img": "https://www.arweave.net/0goCk3iw5jGeiYIt3hwWiLZuhxHaATBUyhbo1D-cSTg?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "Gbx4C4f6vSTjEnqfdCWp1XNHzRHURqoqSQz77bkWYsNe",
+    "mint": "25MR1Z6bEdvKPbPuaWDQGkAku5C9W6XUYmU8s6BUUjzB",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 2726",
+    "img": "https://www.arweave.net/9HhHtt_Y3PnqBPEyirkOLHJcH4Yt0wqdzlFtbOOxX9k?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "Gbx4C4f6vSTjEnqfdCWp1XNHzRHURqoqSQz77bkWYsNe",
+    "mint": "ALTT3vbHGgKSERUA6t6tsgEWMwCiRXk8Ev8WNiumzWZA",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8123",
+    "img": "https://www.arweave.net/HJG795lPbbXL_AMKFjNMgLQ5WnD5PqfS05wwv9r_q8c?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Blue Star",
+      "rarity": 6.666666666666667,
+      "name": "TicketType"
+    },
+    "owner": "Gbx4C4f6vSTjEnqfdCWp1XNHzRHURqoqSQz77bkWYsNe",
+    "mint": "2W9ZtjizrVSDSfmyx7gzPiqeuzYNAwNauQf1MYRGQdDv",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4715",
+    "img": "https://www.arweave.net/koysdU7NflmJyhqbrey49x-9gKWZiY31IR_Ar9xo8-8?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Golden Shower",
+      "rarity": 10,
+      "name": "TicketType"
+    },
+    "owner": "Gbx4C4f6vSTjEnqfdCWp1XNHzRHURqoqSQz77bkWYsNe",
+    "mint": "5AeS32A64DNMsGnr9s41okvLPUNcQVZy9rEaLrmmkkpC",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8250",
+    "img": "https://www.arweave.net/HXcIW0MOPKvdmTEbh0k4FEdE2L0Aojd47NRv8b-KE9g?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "22UTEdAmMJBYbkCPrKVtZTMiJ8RioD78apxJGxHi41uq",
+    "mint": "FYKjSAtozZ4AgoMMvJYJcGSTsQYjUKMxBLgj2Dbe3rA6",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4742",
+    "img": "https://www.arweave.net/fmY5APqCiFjl6Ncs2sZavR8m9_gX3zIUT8XEtTBSKAk?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "9xcjLRjCPHA6kMqBb9K3JACwzk1Wyq2ebvcCU64vBNX5",
+    "mint": "4dWQE21DaM7xStFM5Uvqmfa5FrEBumCL9j6SnBCYwYwo",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 2679",
+    "img": "https://www.arweave.net/12HlcX9j1g_r3SizzvCXsMl4pU35Dmu7NWzUaZTo3Fk?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "9xcjLRjCPHA6kMqBb9K3JACwzk1Wyq2ebvcCU64vBNX5",
+    "mint": "BmCbyNtQCpq3jWRfDe9ACKfAfia5vA49sF8ysZSFmwyj",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4054",
+    "img": "https://www.arweave.net/FIlMK2tblkc6ryAEsl8iNJDOf65SNH1i-BZml63sU_A?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "9xcjLRjCPHA6kMqBb9K3JACwzk1Wyq2ebvcCU64vBNX5",
+    "mint": "CzPGkeZK4jVgAE1ms95GqdQTJEeXCDDh6D3smX7BWmRW",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8633",
+    "img": "https://www.arweave.net/Op-dhx7ZFzhc0wh1fMV-yTdYXVCmmI1logMExYsyMaE?ext=png",
+    "winMultiplier": {
+      "value": 1.1,
+      "rarity": 8.333333333333334,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Salmon Star",
+      "rarity": 8.333333333333334,
+      "name": "TicketType"
+    },
+    "owner": "2SP5EeLeF5zGRAEjFuTdJ6tFTEVpDzNbVMY3W6KeUwLm",
+    "mint": "HGQ2STW7WGYSxiNnFD92YeZUvHDvepzTfVUeatBbkXi8",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6264",
+    "img": "https://www.arweave.net/yyqD9VKBIRKe6wBnavI3dIMlhYITIrGkQr7QfRJmXOg?ext=png",
+    "winMultiplier": {
+      "value": 1.1,
+      "rarity": 8.333333333333334,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Golden Shower",
+      "rarity": 10,
+      "name": "TicketType"
+    },
+    "owner": "2SP5EeLeF5zGRAEjFuTdJ6tFTEVpDzNbVMY3W6KeUwLm",
+    "mint": "2y2L4gDvLYqw271hcfLjsH3V5NEAGVkn82AgFiT8PxNW",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 2078",
+    "img": "https://www.arweave.net/vGqywvEzbH45PGf2hfQnHFl2sF2QGlxRHbX3453MV7E?ext=png",
+    "winMultiplier": {
+      "value": 1.1,
+      "rarity": 8.333333333333334,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "2SP5EeLeF5zGRAEjFuTdJ6tFTEVpDzNbVMY3W6KeUwLm",
+    "mint": "EvR4XKxi3BviyyTwj88L5GwUxydJGy43WSpQhoRSxX9k",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 3168",
+    "img": "https://www.arweave.net/QXILEq1EwATVgSUoGPXe1mW-lf75xQREzKjpcDxXUYQ?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "2SP5EeLeF5zGRAEjFuTdJ6tFTEVpDzNbVMY3W6KeUwLm",
+    "mint": "CUyKUWaVJdYsjV3mmUh4UjKHGEiS9XZorDfJDVQ36Cdx",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 1033",
+    "img": "https://www.arweave.net/ltt9SGlZ0CyjAVV4PmA8WG3WR7UXq6khkkfSinPIXlY?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "2SP5EeLeF5zGRAEjFuTdJ6tFTEVpDzNbVMY3W6KeUwLm",
+    "mint": "De2QhGZVEdqAZDm5ThdyANHJMeC34j53aWdcgp3V9XWd",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7355",
+    "img": "https://www.arweave.net/Vbiz_2EnXjfkxlO6zroJS92aiqD2MsCg91Xlt9SP9eE?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 5,
+      "rarity": 5,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Salmon Star",
+      "rarity": 8.333333333333334,
+      "name": "TicketType"
+    },
+    "owner": "2SP5EeLeF5zGRAEjFuTdJ6tFTEVpDzNbVMY3W6KeUwLm",
+    "mint": "A4iBFHbBuBKBy3AEsqUeSx7zP9ivCagxdP5QmbbEUJF3",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6261",
+    "img": "https://www.arweave.net/9T0ilKWY0hJpw8qqBUUbZy_wmKKVXAzBFnKYGSN9_yk?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Golden Shower",
+      "rarity": 10,
+      "name": "TicketType"
+    },
+    "owner": "BdC2KzjF4fTjpq3TfzqvVGotp5dC55d9G2xd2nH83pJV",
+    "mint": "GpnNcN7nXHBF7upAggqNqQKVjrLx6zrvTnvXPNQXTtV",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 5602",
+    "img": "https://www.arweave.net/lgQPg90hCzDF2Au4NAhMOuSa573BQwj-N9L_f6Jk0vI?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "BdC2KzjF4fTjpq3TfzqvVGotp5dC55d9G2xd2nH83pJV",
+    "mint": "DASwruEvCGMuiH5CFXgh5kN9ivTZyErr8PYsji1S5exC",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 5883",
+    "img": "https://www.arweave.net/43MibphhU31KIKD14ACJZJMdSFwV0afb8vKIm62iUV0?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 5,
+      "rarity": 5,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "BdC2KzjF4fTjpq3TfzqvVGotp5dC55d9G2xd2nH83pJV",
+    "mint": "dWWqb2GquvoWmoReGj9trSzG41aAbr2aQNXHfezPi1z",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8705",
+    "img": "https://www.arweave.net/cmBMJGdPgcCV6XnIxUM4RtZPJnFmsVCvDslSgCwKers?ext=png",
+    "winMultiplier": {
+      "value": 1.1,
+      "rarity": 8.333333333333334,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Nearly a Rainbow",
+      "rarity": 1.6666666666666667,
+      "name": "TicketType"
+    },
+    "owner": "BdC2KzjF4fTjpq3TfzqvVGotp5dC55d9G2xd2nH83pJV",
+    "mint": "9EN4FAKrYB5bZx2fLVEgdUhkPUfTB3efm8ruYnLBfSQB",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 9785",
+    "img": "https://www.arweave.net/IeslUsTKZpvrsez54A-zDVj5Kk5DD6dL7BKKLXgC3bA?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "4KDqPVB4Z4zCBr8eWHyLdyeJ3se9iHwNa5XAuT7hZQpt",
+    "mint": "EePHiQNM1YH1mWksnazHdeDB6kLHM9xGFyEMBt4VWuEz",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 5017",
+    "img": "https://www.arweave.net/Gxt2rqBL_yj9kPy21bAPmrnNGRSl7rpWSBVfox0CU-U?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Salmon Star",
+      "rarity": 8.333333333333334,
+      "name": "TicketType"
+    },
+    "owner": "7c6Wu42Ubx2BgryemJS4t9Yh5UPk83zSPVucPTmxVSih",
+    "mint": "5hjk7NosyxqXMDpvD7CR4cjddrGkApJ7pAbLocM7nELP",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6098",
+    "img": "https://www.arweave.net/uaYksJRqjeFYnwuYBW4ziManfahin6sXWAUUdeROK-M?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "4JP8vA77nJmhCi4NE5jJz2VpSsnSLviTR83j6jyLbLQG",
+    "mint": "5BiQTn7Wb6SSBDUcu1AiqUnGkS9PqrurgVHv7CkGPA5Y",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 0162",
+    "img": "https://www.arweave.net/PFejyl3L5ak6FZrqodpw-pdg1qk0VrG6ch_59t6JMlw?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "4aF22dkkRReTTKwHguXoLUBudjW8Aa7zrBUY98WcQf6C",
+    "mint": "F4a6CzManTN1SHjE1nN9S2yrzPFUyPKkGZXtbL1KP5h5",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7503",
+    "img": "https://www.arweave.net/oHA3Lp_pevD-ZhBIDn69W5SXgHXELOroBzMtUzRwrBg?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "ABaS1oGXatw8J8ZPZcEXqeh8rYPS4TqXDoJH4aqYTEDS",
+    "mint": "7GzvaWMt8pwiePD5GquBkG65NUt23djHaA8xycnCNWta",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 1704",
+    "img": "https://www.arweave.net/guJHby_NQheIwHkv-S_C98G8aRoxQOA8jVYL9Q_Lb1Y?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Salmon Star",
+      "rarity": 8.333333333333334,
+      "name": "TicketType"
+    },
+    "owner": "FQQVPYBrkYZi7GUK8oB4jUag2Yxrr5itqPjJxNcoBEcw",
+    "mint": "5eAgAiZHcWymZQqrf4RCVLEfUDk5UPwzwwsDmipzvWks",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4767",
+    "img": "https://www.arweave.net/4Smdlatjt3nAS1pQtzrPbgNr4HfC9XYu4E9br7mh_WU?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "AXXRH6NVXjUNxi6GvVWV4Pp6q7k9xkqeqHhRx8sW41TX",
+    "mint": "FDxWY8woMEGQdxgYV4LXBdvCuAorrtTF3EQiU38kq5eY",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 2737",
+    "img": "https://www.arweave.net/B1I14Qc8egGLGkNqCDoCGcDcmfw-LSNellsVYKRuwuM?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Snail shit",
+      "rarity": 1.6666666666666667,
+      "name": "TicketType"
+    },
+    "owner": "ABaS1oGXatw8J8ZPZcEXqeh8rYPS4TqXDoJH4aqYTEDS",
+    "mint": "8UowF1En5vDrbsaaMYMVMMXNp3P3TncCCKUWfPHrxxzZ",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4778",
+    "img": "https://www.arweave.net/Dg7WSW0wm2RO4LOK-tfRSdFbKCV73h2DUI5YkrKTLBQ?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "GURgZfAyJJ1Ca6ELKApMZdSdw71QywqoZPLAUkMRaQnb",
+    "mint": "9z17ztMsLzQ5fFE3oZtgAAgCGmjHYRmLhBK2nFMqCZ1W",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 0809",
+    "img": "https://www.arweave.net/30fQtn2kOVguT38BGn88VrR3PXrF5AVGU4Nc3UNycmg?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "57KQUnfeRQVhpjuJ1mnVt2QrX86zw3yzBebgigGzafbQ",
+    "mint": "Geri9aWwYpVWAxpjTdfF5bHFnVJuT6dwfUKvsJGkzw63",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 9036",
+    "img": "https://www.arweave.net/mPqISCHd5FOy0CuwqvuNrb_bzpaZOhSBiaHgsUl-R3g?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "ABaS1oGXatw8J8ZPZcEXqeh8rYPS4TqXDoJH4aqYTEDS",
+    "mint": "HFWPyFNZpCgtqKSTW1j2W113wLuEZnnW7Dj7P6M2aFG1",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4440",
+    "img": "https://www.arweave.net/4OEy_zlxIYHq4m7_jxRxKlrFCoiyIiLhuZr2kgq5VbI?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "BTMnXw12vraMgPHVW54NxPDN3ywYyRAVxcqtbwwzfcPQ",
+    "mint": "AXLGqMQkR6btJLkGZD5KYJ7W78wM61yxMdZqVoT3tmCD",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7897",
+    "img": "https://www.arweave.net/eYr7tMftw1YTyAEg7D5wIklk6f8N5qKvwHG04WBjaIQ?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "HHchEEN6PVjYPJK8ZQBKVTKzRvPTUwM2DfJBfxdUUftN",
+    "mint": "An8wXrGPqANeb182WVyNUJnS7eLYMnZ8DozC56gGQSzN",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8170",
+    "img": "https://www.arweave.net/othzCM1NrvNsG3eW_USNzMM1RJCN0PykeTeWx8qx2NM?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Blue Star",
+      "rarity": 6.666666666666667,
+      "name": "TicketType"
+    },
+    "owner": "A7QEhKyS2fpmafFC5gvhfogPJTRZsEQk9JDMfdHiZqnn",
+    "mint": "FvhVQE8H5iGarePYMKw64Ai1RDrw75UkwVXpM6H86egq",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 0845",
+    "img": "https://www.arweave.net/yn9Y8pMmEYfiJT5QkOJlGdvUJoY3mHlgVZlqJT9pMls?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Red",
+      "rarity": 15,
+      "name": "TicketType"
+    },
+    "owner": "9cgwBbM3e2MSLUwMZuSmvVkx5WuFG4c2oycvixZbkLHh",
+    "mint": "9Kht6gQNMfUjxatBqVNhM6TBF8pgECVwEpK66YjnViSo",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4926",
+    "img": "https://www.arweave.net/hkFirMCxjpmViXM3ffAOaJTZ3TQjNmSvJO5fTak3TxI?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Salmon Star",
+      "rarity": 8.333333333333334,
+      "name": "TicketType"
+    },
+    "owner": "2bbpJV3GHuSehP1hdpWQZDT51e52sV58m6f7ZZxJvbPD",
+    "mint": "DNLg6ytQDsLR71FAPqvKyTURvuqdZLRFYtn6XV51wCHN",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7742",
+    "img": "https://www.arweave.net/fNmM5H11Gnv2PCn8XGALNkDC2knnEILD9vouxMRWbvo?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "Cby2dutHLgHSuyfm9kAWo5EiuLPZZyzE4cJDKnXKo7C6",
+    "mint": "ZBEYHdvAuqguLWKUeCTqKejZrBJS7pZmBYxvqut7ydW",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4457",
+    "img": "https://www.arweave.net/SOGXUAs5ctWDU7GzQvhaYm9jBI5Xw4WqWbwhSV2Cp84?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Golden Shower",
+      "rarity": 10,
+      "name": "TicketType"
+    },
+    "owner": "95NTddSgEfTmB1Bm4LwHxfo93jxzkvcbc5iemJRqEWTz",
+    "mint": "9myQzkRZNcPKZD8Gc38LCiwKpSWRqTK2HFFp8KERpozB",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7377",
+    "img": "https://www.arweave.net/qNQBL_-QvkMEhc8ZxW0CHQ1wy16wSinSlNHbxdoFuCU?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Golden Shower",
+      "rarity": 10,
+      "name": "TicketType"
+    },
+    "owner": "95NTddSgEfTmB1Bm4LwHxfo93jxzkvcbc5iemJRqEWTz",
+    "mint": "28KhR8DbEk9sg2AyzPaB6x7pr68E6JAQx79xniPoh6FT",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 9558",
+    "img": "https://www.arweave.net/rIapyuNGiiQXXXLZJC-HQnmIUYOkf1_MljhVqNivyJI?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Blue Star",
+      "rarity": 6.666666666666667,
+      "name": "TicketType"
+    },
+    "owner": "95NTddSgEfTmB1Bm4LwHxfo93jxzkvcbc5iemJRqEWTz",
+    "mint": "E4nwkGdTGGZ6byAENFsAifkXmtotZfyofGmBbTrTwgER",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 5752",
+    "img": "https://www.arweave.net/szGjODgU2t0OccgL92azqZzjmHfKpyW55I3vpgrotAw?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "6N6NcdHjAsLP232xwmKEq9ePYooVPhw7G3gnmSYF4Gse",
+    "mint": "68Hm6aQrS3YB3NshmFHd25BTRX4W2cmsg1uVoDVADkJX",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8165",
+    "img": "https://www.arweave.net/7fUtDRpkkfI_rbIxQWrv7_BVkfjOCPxQN5qAJmim64E?ext=png",
+    "winMultiplier": {
+      "value": 1.1,
+      "rarity": 8.333333333333334,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "6N6NcdHjAsLP232xwmKEq9ePYooVPhw7G3gnmSYF4Gse",
+    "mint": "HtTJoaXz4nfCNY5epFBntX4zrrLJJ9MkL5k5qMwpmtNu",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6121",
+    "img": "https://www.arweave.net/lImADeDI-pHDQr0wDnaMcSlVesnHurXJQlH0_5sWnkU?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 5,
+      "rarity": 5,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "6N6NcdHjAsLP232xwmKEq9ePYooVPhw7G3gnmSYF4Gse",
+    "mint": "2ztATZPXpx3Em2Rai5useQBwmw6j2JnCR6jwpWy6MHD7",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 9331",
+    "img": "https://www.arweave.net/_bGR9JtHg1yMc64n1hzoz93f9IUM9g1mKXXGQ30jU9M?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "4aF22dkkRReTTKwHguXoLUBudjW8Aa7zrBUY98WcQf6C",
+    "mint": "6A9YzdmtFNsF3DwqHKqr1S7JiHqp3xygpxYAj9CJEPV3",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7159",
+    "img": "https://www.arweave.net/9389TehOq5cb6ftBt7X7uoZRLG08Rg5jFErWeS7cDew?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "4aF22dkkRReTTKwHguXoLUBudjW8Aa7zrBUY98WcQf6C",
+    "mint": "H2VfpJ4Ug5ZRYWgdhE7xNaiJN93vxJKTrj1npo4UTR34",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6263",
+    "img": "https://www.arweave.net/DWs9eI7vagXfeTqAX0fJ1vUa1JJ5J8Tp4Htf2yvUxSw?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "4aF22dkkRReTTKwHguXoLUBudjW8Aa7zrBUY98WcQf6C",
+    "mint": "3jXfB5iWPHwEF1VNSniSxgMz1VxGVTfdSxuoMzKSRwkm",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 4889",
+    "img": "https://www.arweave.net/SJlGvnekAs06vKDV8m83mouhsEqzLZ4NAuJVGtwmkaE?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "5hNFn4YrFF1MruDis9GVwCG3R5jWUNZ6Mt7T64J2T9Ti",
+    "mint": "7RfUy5g22DSCYzw4ehZWKykUwAyFpCvrpQUVNdAqg2G1",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 3263",
+    "img": "https://www.arweave.net/CyYX3wsWg1vOltht5CXEUFMNZpyeazDtnVRA29IVGmw?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "4ghEFXU4eanwCesQYnnQGAcBHFfApzyFH8Jqja4xVQ26",
+    "mint": "8iJzwkhg18bF7aqdzd3zFd8M4Ge77N26DpE4gWZ4ck7Q",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 9655",
+    "img": "https://www.arweave.net/a5d6rtRlwa5rwuJNkL9P40iCrOuwOEuTQndnQW0V0EY?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "3EtRwc7takUSxcc7RdKSz9YE6KdiwfXW7hasj3yN5gos",
+    "mint": "9gihzJNKp9CWXpS388LGT2NwKrMPBsx52vopk7Kqos6d",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6647",
+    "img": "https://www.arweave.net/66v3pwJLK_dwjm4s7ED5sDOOHxqVs-CUdQnazHg5fW8?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "H5ejCF9YJkcqpZVrwTKVE4ogaSsJ9468msKsMKPQKD5k",
+    "mint": "BtSF95w6TdFK4NY6bjvynj57YJmfZBKAv7t9rGAwV8QM",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 8942",
+    "img": "https://www.arweave.net/74pDDmBx5bFw5Iza4rwKFfjB-I905j8WEvgtKXpXQnM?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 2,
+      "rarity": 23.333333333333336,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Golden Shower",
+      "rarity": 10,
+      "name": "TicketType"
+    },
+    "owner": "H5qvfwnKJoNFzFuoA4Yeb6Z5gfyLySMVTrxNUV41jSte",
+    "mint": "8hBEVEMceJuDFEdgmStseCQwWi2Dp4kKE7rwhi32QoKE",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 6092",
+    "img": "https://www.arweave.net/Dvc8K7BJh96t7ZejiyK6lS2qSUgjeE3MCsrtvP3vVKo?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "G74G12gRjpbYph2m9tc5SpFg9adE7RYmmwdp42x86KPD",
+    "mint": "BHJkfcSPQhZWWaeB5RwFqLnKBWZCCyTyfV51tsAfeT6b",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 1567",
+    "img": "https://www.arweave.net/jo8kFwGCUSXvA2xdWuivSs4o1_ljcyrxWLwuF4LkfOo?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Boring Green",
+      "rarity": 25,
+      "name": "TicketType"
+    },
+    "owner": "G74G12gRjpbYph2m9tc5SpFg9adE7RYmmwdp42x86KPD",
+    "mint": "4HxWsEey4b6QaZuS6yskXXNDoPg6NbFpsGg2VdAPaKkX",
+    "rarityTotal": 0
+  },
+  {
+    "name": "Ticket: 7072",
+    "img": "https://www.arweave.net/4NElipLXMIqxrrAy3SeZrrva-8P3xGFTHjlARaBSfCE?ext=png",
+    "winMultiplier": {
+      "value": 1,
+      "rarity": 91.66666666666667,
+      "name": "WinMultiplier"
+    },
+    "playMultiplier": {
+      "value": 1,
+      "rarity": 71.66666666666667,
+      "name": "PlayMultiplier"
+    },
+    "ticketType": {
+      "value": "Eyedestroyer",
+      "rarity": 31.666666666666668,
+      "name": "TicketType"
+    },
+    "owner": "H5qvfwnKJoNFzFuoA4Yeb6Z5gfyLySMVTrxNUV41jSte",
+    "mint": "r8Mkt63hHkFifJhKEV94M3GN2p1uXZV6gf1ywHVjtz2",
+    "rarityTotal": 0
+  }
+]
