@@ -1,12 +1,13 @@
-import {getAllMintedNfts, getMetaDataFromMint, snooze} from "./helpers/nft";
+import {getMetaDataFromMint, snooze} from "./helpers/nft";
 import {web3} from "@project-serum/anchor";
 import * as fs from 'fs';
+
 const fsPromises = fs.promises;
 
 
 const collectDetailOfMints = async () => {
     const solConnection = new web3.Connection(web3.clusterApiUrl('mainnet-beta'));
-    try{
+    try {
         let savedMintsFile = await fsPromises.readFile('mints.json', 'utf-8');
         let mints = JSON.parse(savedMintsFile);
         let mintInfos = [];
@@ -15,7 +16,7 @@ const collectDetailOfMints = async () => {
         let winMultipliers = new Map<number, number>();
         let ticketTypes = new Map<string, number>();
 
-        for(let mint in mints) {
+        for (let mint in mints) {
             let mintInfo = await getMetaDataFromMint(mints[mint], solConnection);
             mintInfos.push(mintInfo);
 
@@ -32,10 +33,28 @@ const collectDetailOfMints = async () => {
         }
 
         // evaluate rarity ranking
+        for (let i in mintInfos) {
+
+            mintInfos[i].ticketType.rarity = (ticketTypes.get(mintInfos[i].ticketType.value) ?? 0) /
+                (mintInfos.length / 100);
+
+            mintInfos[i].winMultiplier.rarity = (winMultipliers.get(Number(mintInfos[i].winMultiplier.value)) ?? 0) /
+                (mintInfos.length / 100);
+
+            mintInfos[i].playMultiplier.rarity = (playMultipliers.get(Number(mintInfos[i].playMultiplier.value)) ?? 0) /
+                (mintInfos.length / 100);
+
+            mintInfos[i].rarityTotal = (mintInfos[i].ticketType.rarity / 100) *
+                (mintInfos[i].playMultiplier.rarity / 100) *
+                (mintInfos[i].winMultiplier.rarity / 100);
+        }
+
+        mintInfos.sort(function(a, b) {
+            return a.rarityTotal - b.rarityTotal;
+        });
+
         for(let i in mintInfos){
-            mintInfos[i].ticketType.rarity = (ticketTypes.get(mintInfos[i].ticketType.value) ?? 0) / (mintInfos.length / 100)
-            mintInfos[i].winMultiplier.rarity = (winMultipliers.get(Number(mintInfos[i].winMultiplier.value)) ?? 0) / (mintInfos.length / 100)
-            mintInfos[i].playMultiplier.rarity = (playMultipliers.get(Number(mintInfos[i].playMultiplier.value)) ?? 0) / (mintInfos.length / 100)
+            mintInfos[i].rarityRank = Number(i) + 1;
         }
 
         let data = JSON.stringify(mintInfos, null, 2);
@@ -44,7 +63,7 @@ const collectDetailOfMints = async () => {
             console.log('Data written to file');
         });
 
-    }catch (e){
+    } catch (e) {
         console.log(e);
         return;
     }

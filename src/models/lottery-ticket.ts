@@ -6,6 +6,7 @@ export interface LotteryTicket {
     winMultiplier: TraitModel;
     ticketType: TraitModel;
     rarityTotal: number;
+    rarityRank: number;
     name: string;
     owner: string;
     mint: string;
