@@ -22,7 +22,6 @@ import {MY_CANDY_MACHINE_ID} from "./constants";
 
 export const getMetaDataFromMint = async (mintAddress: string, connection: Connection): Promise<LotteryTicket> => {
     console.log(mintAddress);
-
     const holders = await connection.getTokenLargestAccounts(new PublicKey(mintAddress));
     const holderAccount = holders.value.find(h => h.amount === '1');
     if (!holderAccount) {
@@ -127,6 +126,9 @@ export const getAllMintedNfts = async (connection: Connection): Promise<string[]
         lastSignature = signatures[signatures.length - 1];
 
         for (let tx in txs) {
+            if(txs[tx]?.meta?.err){
+                continue;
+            }
             const accountInstruction = txs[tx]?.transaction.message.instructions[1] as ParsedInstruction;
             if (accountInstruction) {
                 if (accountInstruction && accountInstruction.parsed.type === 'initializeMint') {
