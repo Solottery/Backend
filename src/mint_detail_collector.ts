@@ -69,7 +69,7 @@ const collectDetailOfMints = async () => {
     }
 }
 
-cron.schedule('2 * * * *', function(){
+cron.schedule('*/2 * * * *', function(){
     collectDetailOfMints().then(() => {
         console.log("Collected");
     });

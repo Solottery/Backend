@@ -31,7 +31,7 @@ const collectCandyMachineMints = async () => {
     }
 }
 
-cron.schedule('2 * * * *', function(){
+cron.schedule('*/2 * * * *', function(){
     collectCandyMachineMints().then(() => {
         console.log("Collected");
     });
