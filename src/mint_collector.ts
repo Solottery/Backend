@@ -2,6 +2,8 @@ import {getAllMintedNfts} from "./helpers/nft";
 import {web3} from "@project-serum/anchor";
 import * as fs from 'fs';
 import {getCandyMachineState} from "./helpers/candy-machine";
+import * as cron from 'node-cron';
+
 const fsPromises = fs.promises;
 
 
@@ -29,8 +31,8 @@ const collectCandyMachineMints = async () => {
     }
 }
 
-
-collectCandyMachineMints().then(() => {
-    console.log("Collected");
+cron.schedule('2 * * * *', function(){
+    collectCandyMachineMints().then(() => {
+        console.log("Collected");
+    });
 });
-

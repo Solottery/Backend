@@ -1,7 +1,7 @@
 import {getMetaDataFromMint, snooze} from "./helpers/nft";
 import {web3} from "@project-serum/anchor";
 import * as fs from 'fs';
-
+import * as cron from 'node-cron';
 const fsPromises = fs.promises;
 
 
@@ -69,8 +69,8 @@ const collectDetailOfMints = async () => {
     }
 }
 
-
-collectDetailOfMints().then(() => {
-    console.log("Collected");
+cron.schedule('2 * * * *', function(){
+    collectDetailOfMints().then(() => {
+        console.log("Collected");
+    });
 });
-
