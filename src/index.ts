@@ -1,5 +1,6 @@
 import express from 'express';
 import * as fs from 'fs';
+import {getUniqueOwners} from "./helpers/owner";
 const fsPromises = fs.promises;
 
 
@@ -20,6 +21,14 @@ app.get('/tickets/', async (req, res) => {
     if(mintFile){
         let mints = JSON.parse(mintFile);
         res.send(mints);
+    }
+});
+
+// get all minted tickets
+app.get('/owners/', async (req, res) => {
+    const owners = await getUniqueOwners();
+    if(owners){
+        res.send(owners);
     }
 });
 
