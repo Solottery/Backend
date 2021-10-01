@@ -1,0 +1,14 @@
+{
+  "lotteries": [
+    {
+      "name": "First Lottery",
+      "time": "2021-10-01T12:08:22+00:00",
+      "assets": [
+        {
+          "token": "",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}
