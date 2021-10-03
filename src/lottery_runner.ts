@@ -2,6 +2,37 @@ import fs from "fs";
 import {LotteryEntry, LotteryModel} from "./models/LotteryModel";
 import {LotteryTicket} from "./models/lottery-ticket";
 const fsPromises = fs.promises;
+import crypto from "crypto";
+import arrayShuffle from 'array-shuffle';
+import {Keypair, PublicKey} from "@solana/web3.js";
+import {web3} from "@project-serum/anchor";
+
+// Thanks @metaplex
+export function loadWalletKey(keypair: string): Keypair {
+    return Keypair.fromSecretKey(
+        new Uint8Array(JSON.parse(fs.readFileSync(keypair).toString())),
+    );
+}
+
+const sendSol = async (amount: number, winningTicket: LotteryEntry) =>  {
+    const jackPotWallet = loadWalletKey('./lottery_data/jackpot_wallet.json')
+
+    let transaction = new web3.Transaction().add(
+        web3.SystemProgram.transfer({
+            fromPubkey: jackPotWallet.publicKey,
+            toPubkey: new PublicKey(winningTicket.owner),
+            lamports: web3.LAMPORTS_PER_SOL * amount,
+        }),
+    );
+    const solConnection = new web3.Connection(web3.clusterApiUrl('mainnet-beta'));
+
+    // Sign transaction, broadcast, and confirm
+    let signature = await web3.sendAndConfirmTransaction(
+        solConnection,
+        transaction,
+        [jackPotWallet],
+    );
+}
 
 const run_lottery = async () => {
     let lotteriesData = await fsPromises.readFile('./lottery_data/lotteries.json', 'utf-8');
@@ -43,7 +74,11 @@ const run_lottery = async () => {
                 }
 
                 // shuffle list with random number
-                // shuffle(lotteryList)
+                const randomList = arrayShuffle(lotteryList);
+                const winningIndex = crypto.randomInt(0, randomList.length - 1);
+                const winningTicket = randomList[winningIndex];
+
+
 
 
             }
