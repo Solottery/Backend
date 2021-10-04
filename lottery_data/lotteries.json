@@ -1,0 +1,25 @@
+{
+  "lotteries": [
+    {
+      "name": "First Lottery",
+      "time": "2021-10-01T12:08:22+00:00",
+      "id": 1,
+      "assets": [
+        {
+          "address": "7jFr86iPq2TULcswq22zwEpG4unjt6XtihcmaEJrfkMn",
+          "amount": 50,
+          "nft": true,
+          "sol": false
+        },
+        {
+          "name": "SOL",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 0.1,
+          "nft": false,
+          "sol": true
+        }
+      ]
+    }
+  ]
+}
