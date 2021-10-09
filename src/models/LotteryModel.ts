@@ -2,9 +2,11 @@
 export interface LotteryModel {
     id: number;
     name: string;
-    time: string;
+    time: Date;
     assets: AssetModel[];
+    description: string;
     finished: boolean;
+    winner: LotteryResult;
 }
 
 export interface AssetModel {
@@ -14,6 +16,7 @@ export interface AssetModel {
     nft: boolean;
     name: string;
     website: string;
+    preview: string;
 }
 
 export interface LotteryEntry {
@@ -25,6 +28,7 @@ export interface LotteryEntry {
 export interface LotteryResult {
     winner: string;
     ticket: string;
+    ticketUrl: string;
     assets: []
 }
 
@@ -33,4 +37,5 @@ export interface WinningAssets {
     tx: string;
     amount: number;
     website: string;
+    preview: string;
 }

@@ -27,3 +27,8 @@ yarn-error.log*
 # Optional eslint cache
 .eslintcache
 /images/
+/lottery_data/jackpot_wallet.json
+/mints.json
+/lottery_data/1/mints_details.json
+/mints_details.json
+/lottery_data/1/winner.json

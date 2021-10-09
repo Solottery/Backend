@@ -72,28 +72,11 @@ const sendSPLToken = async (tokenAddress: string, winningTicket: LotteryEntry, a
         const fromTokenAccount = await token.getOrCreateAssociatedAccountInfo(
             jackPotWallet.publicKey,
         );
-        const signature = await token.transfer(fromTokenAccount.address, toTokenAccount.address, jackPotWallet, [], web3.LAMPORTS_PER_SOL * amount);
-
-        // // Add token transfer instructions to transaction
-        // const transaction = new web3.Transaction().add(
-        //     Token.createTransferInstruction(
-        //         TOKEN_PROGRAM_ID,
-        //         fromTokenAccount.address,
-        //         toTokenAccount.address,
-        //         winner,
-        //         [],
-        //         amount,
-        //     ),
-        // );
-        //
-        //
-        // // Sign transaction, broadcast, and confirm
-        // const signature = await web3.sendAndConfirmTransaction(
-        //     solConnection,
-        //     transaction,
-        //     [jackPotWallet],
-        //     {commitment: 'confirmed'},
-        // );
+        const signature = await token.transfer(fromTokenAccount.address,
+            toTokenAccount.address,
+            jackPotWallet,
+            [],
+            web3.LAMPORTS_PER_SOL * amount);
 
         return signature;
     } catch (e) {
@@ -107,6 +90,7 @@ const run_lottery = async () => {
     if (lotteriesData) {
         const lotteries = JSON.parse(lotteriesData).lotteries as LotteryModel[];
         const runningLotteries = lotteries.filter(l => !l.finished)
+
         runningLotteries.sort((l1, l2) => {
             if (l1.time < l2.time) {
                 return -1;
@@ -181,20 +165,29 @@ const run_lottery = async () => {
                         } as WinningAssets);
                     }
                 }
-
-
+                console.log(winningTicket.img);
                 const result = {
                     winner: winningTicket.owner,
                     ticket: winningTicket.ticket,
+                    ticketUrl: winningTicket.img,
                     assets: winAssets
                 } as LotteryResult;
 
                 fs.writeFileSync(lottery_data_path + 'winner.json', JSON.stringify(result))
+                for(let i in lotteries){
+                    if(lotteries[i].id == runningLotteries[0].id){
+                        lotteries[i].finished = true;
+                        lotteries[i].winner = result;
+                        break;
+                    }
+                }
+                fs.writeFileSync('./lottery_data/lotteries.json', JSON.stringify({
+                    lotteries: lotteries
+                }));
             }
         }
 
     }
 }
-
 
 run_lottery().then(r => console.log("fertig"));

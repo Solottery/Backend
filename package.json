@@ -9,6 +9,7 @@
     "detai_collector": "ts-node src/mint_detail_collector.ts",
     "mint_collector": "ts-node src/mint_collector.ts",
     "lottery_runner": "ts-node src/lottery_runner.ts",
+    "info_runner": "ts-node src/get_nft_info_simple.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

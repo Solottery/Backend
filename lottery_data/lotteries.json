@@ -2,24 +2,33 @@
   "lotteries": [
     {
       "name": "First Lottery",
-      "time": "2021-10-01T12:08:22+00:00",
+      "time": "2021-10-08T20:16:22+00:00",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat neque ac tempus rutrum. Etiam feugiat turpis at malesuada condimentum. Integer dolor enim, dignissim id massa vel, fringilla volutpat nulla. Suspendisse ultricies enim at aliquam egestas. Morbi vel viverra mi, sit amet sodales risus. Etiam vel enim pulvinar, egestas massa ac, feugiat felis. Integer ut venenatis lectus. Curabitur dignissim nibh ac turpis auctor, at tincidunt leo pulvinar. Donec quis tristique ante.",
       "id": 1,
+      "finished": true,
       "assets": [
-        {
-          "address": "7jFr86iPq2TULcswq22zwEpG4unjt6XtihcmaEJrfkMn",
-          "amount": 50,
-          "nft": true,
-          "sol": false
-        },
         {
           "name": "SOL",
           "website": "https://www.coingecko.com/en/coins/solana",
           "address": "",
           "amount": 0.1,
           "nft": false,
+          "preview": "solana.png",
           "sol": true
         }
-      ]
+      ],
+      "winner": {
+        "winner": "95NTddSgEfTmB1Bm4LwHxfo93jxzkvcbc5iemJRqEWTz",
+        "ticket": "E4nwkGdTGGZ6byAENFsAifkXmtotZfyofGmBbTrTwgER",
+        "assets": [
+          {
+            "website": "https://www.coingecko.com/en/coins/solana",
+            "amount": 0.1,
+            "name": "SOL",
+            "tx": "4Y4fmX2a1R5pvuWddpg1SseL334fVEvpd3YVmwT8MQiX1Wk6nH6qAiY1pkNb1wVAc3z2MSTCXzjqVE1hRzJekkTo"
+          }
+        ]
+      }
     }
   ]
 }
