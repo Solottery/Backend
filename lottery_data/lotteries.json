@@ -1,35 +1,32 @@
 {
   "lotteries": [
     {
-      "name": "First Lottery",
-      "time": "2021-10-09T11:12:00+00:00",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat neque ac tempus rutrum. Etiam feugiat turpis at malesuada condimentum. Integer dolor enim, dignissim id massa vel, fringilla volutpat nulla. Suspendisse ultricies enim at aliquam egestas. Morbi vel viverra mi, sit amet sodales risus. Etiam vel enim pulvinar, egestas massa ac, feugiat felis. Integer ut venenatis lectus. Curabitur dignissim nibh ac turpis auctor, at tincidunt leo pulvinar. Donec quis tristique ante.",
+      "name": "The Beta Test",
+      "time": "2021-10-09T13:00:00+00:00",
+      "description": "This is the beta test to check the lottery in production. To win is a ticket and a grain of sand of SOL",
       "id": 1,
-      "finished": true,
+      "finished": false,
       "assets": [
         {
-          "name": "Solottery Ticekt",
+          "name": "Solottery Ticket",
           "website": "https://solottery.fun/home",
           "address": "9F7U1hukWjsgjzXKahgd5gxE5ysq3nRuF3q3moMeeUzN",
           "amount": 1,
           "nft": true,
           "preview": "https://m4cg3w3uvoorzin32vdhsbe7gmc2j7bugx2o57p4ybhyyn42eowq.arweave.net/ZwRt23SrnRyhu9VGeQSfMwWk_DQ19O79_MBPjDeaI60/?ext=png",
           "sol": false
+        },
+        {
+          "name": "Solana",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 0.01,
+          "nft": false,
+          "preview": "solana.png",
+          "sol": true
         }
       ],
       "winner": {
-        "winner": "GVjSdMLeLjxj5NB4X4jiFmHNT2LAUPBFFTzVLUAaz5Yf",
-        "ticket": "9EN4FAKrYB5bZx2fLVEgdUhkPUfTB3efm8ruYnLBfSQB",
-        "ticketUrl": "https://www.arweave.net/cmBMJGdPgcCV6XnIxUM4RtZPJnFmsVCvDslSgCwKers?ext=png",
-        "ticketNumber": "8705",
-        "assets": [
-          {
-            "website": "https://solottery.fun/home",
-            "amount": 1,
-            "name": "Solottery Ticekt",
-            "tx": "5VkiGZZ3FGXcHRZuYGd2Lq4AsgDgW6YgnRy3EyRhPSFJjzZ41TeuumHAWbfGwSzsUZ7UeSVpQ63GztvtxitYgMCE"
-          }
-        ]
       }
     }
   ]
