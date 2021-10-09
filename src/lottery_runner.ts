@@ -118,8 +118,10 @@ const run_lottery = async () => {
         const lottery_data_path = './lottery_data/' + runningLotteries[0].id + "/";
         // if its time for the snapshot
         if (new Date(runningLotteries[0].time) <= (new Date(Date.now() - 1000 * 60))) {
-            await fsPromises.mkdir(lottery_data_path);
-            await fsPromises.copyFile('mints_details.json', lottery_data_path + 'mints_details.json');
+            if(!fs.existsSync(lottery_data_path + 'mints_details.json')){
+                await fsPromises.mkdir(lottery_data_path);
+                await fsPromises.copyFile('mints_details.json', lottery_data_path + 'mints_details.json');
+            }
         }
 
         // lottery time
