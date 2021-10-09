@@ -2,30 +2,32 @@
   "lotteries": [
     {
       "name": "First Lottery",
-      "time": "2021-10-08T20:16:22+00:00",
+      "time": "2021-10-09T11:12:00+00:00",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat neque ac tempus rutrum. Etiam feugiat turpis at malesuada condimentum. Integer dolor enim, dignissim id massa vel, fringilla volutpat nulla. Suspendisse ultricies enim at aliquam egestas. Morbi vel viverra mi, sit amet sodales risus. Etiam vel enim pulvinar, egestas massa ac, feugiat felis. Integer ut venenatis lectus. Curabitur dignissim nibh ac turpis auctor, at tincidunt leo pulvinar. Donec quis tristique ante.",
       "id": 1,
       "finished": true,
       "assets": [
         {
-          "name": "SOL",
-          "website": "https://www.coingecko.com/en/coins/solana",
-          "address": "",
-          "amount": 0.1,
-          "nft": false,
-          "preview": "solana.png",
-          "sol": true
+          "name": "Solottery Ticekt",
+          "website": "https://solottery.fun/home",
+          "address": "9F7U1hukWjsgjzXKahgd5gxE5ysq3nRuF3q3moMeeUzN",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://m4cg3w3uvoorzin32vdhsbe7gmc2j7bugx2o57p4ybhyyn42eowq.arweave.net/ZwRt23SrnRyhu9VGeQSfMwWk_DQ19O79_MBPjDeaI60/?ext=png",
+          "sol": false
         }
       ],
       "winner": {
-        "winner": "95NTddSgEfTmB1Bm4LwHxfo93jxzkvcbc5iemJRqEWTz",
-        "ticket": "E4nwkGdTGGZ6byAENFsAifkXmtotZfyofGmBbTrTwgER",
+        "winner": "GVjSdMLeLjxj5NB4X4jiFmHNT2LAUPBFFTzVLUAaz5Yf",
+        "ticket": "9EN4FAKrYB5bZx2fLVEgdUhkPUfTB3efm8ruYnLBfSQB",
+        "ticketUrl": "https://www.arweave.net/cmBMJGdPgcCV6XnIxUM4RtZPJnFmsVCvDslSgCwKers?ext=png",
+        "ticketNumber": "8705",
         "assets": [
           {
-            "website": "https://www.coingecko.com/en/coins/solana",
-            "amount": 0.1,
-            "name": "SOL",
-            "tx": "4Y4fmX2a1R5pvuWddpg1SseL334fVEvpd3YVmwT8MQiX1Wk6nH6qAiY1pkNb1wVAc3z2MSTCXzjqVE1hRzJekkTo"
+            "website": "https://solottery.fun/home",
+            "amount": 1,
+            "name": "Solottery Ticekt",
+            "tx": "5VkiGZZ3FGXcHRZuYGd2Lq4AsgDgW6YgnRy3EyRhPSFJjzZ41TeuumHAWbfGwSzsUZ7UeSVpQ63GztvtxitYgMCE"
           }
         ]
       }

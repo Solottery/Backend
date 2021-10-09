@@ -22,6 +22,8 @@ export interface AssetModel {
 export interface LotteryEntry {
     owner: string;
     ticket: string;
+    ticketUrl: string;
+    ticketNumber: string;
     winMultiplier: number;
 }
 
@@ -29,6 +31,7 @@ export interface LotteryResult {
     winner: string;
     ticket: string;
     ticketUrl: string;
+    ticketNumber: string;
     assets: []
 }
 

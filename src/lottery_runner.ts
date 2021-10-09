@@ -10,11 +10,12 @@ import crypto from "crypto";
 import {Keypair, PublicKey} from "@solana/web3.js";
 import {web3} from "@project-serum/anchor";
 import {Token, TOKEN_PROGRAM_ID} from "@solana/spl-token";
+import * as cron from "node-cron";
 
 const fsPromises = fs.promises;
 
 
-const NETWORK = "devnet";
+const NETWORK = "mainnet-beta";
 
 const shuffleArray = (array: any[]): any => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -57,7 +58,7 @@ const sendSol = async (amount: number, winningTicket: LotteryEntry): Promise<str
 }
 
 
-const sendSPLToken = async (tokenAddress: string, winningTicket: LotteryEntry, amount: number): Promise<string> => {
+const sendSPLToken = async (tokenAddress: string, winningTicket: LotteryEntry, amount: number, nft: boolean): Promise<string> => {
     try {
 
         const jackPotWallet = loadWalletKey('./lottery_data/jackpot_wallet.json')
@@ -72,11 +73,19 @@ const sendSPLToken = async (tokenAddress: string, winningTicket: LotteryEntry, a
         const fromTokenAccount = await token.getOrCreateAssociatedAccountInfo(
             jackPotWallet.publicKey,
         );
+
+        let sendAmount = 0;
+        if(nft){
+            sendAmount = amount;
+        }else{
+            sendAmount = web3.LAMPORTS_PER_SOL * amount;
+        }
         const signature = await token.transfer(fromTokenAccount.address,
             toTokenAccount.address,
             jackPotWallet,
             [],
-            web3.LAMPORTS_PER_SOL * amount);
+            sendAmount,
+            );
 
         return signature;
     } catch (e) {
@@ -90,6 +99,10 @@ const run_lottery = async () => {
     if (lotteriesData) {
         const lotteries = JSON.parse(lotteriesData).lotteries as LotteryModel[];
         const runningLotteries = lotteries.filter(l => !l.finished)
+
+        if(runningLotteries.length == 0){
+            return;
+        }
 
         runningLotteries.sort((l1, l2) => {
             if (l1.time < l2.time) {
@@ -122,6 +135,8 @@ const run_lottery = async () => {
                         lotteryList.push({
                             owner: ticketInfo.owner,
                             ticket: ticketInfo.mint,
+                            ticketUrl: ticketInfo.img,
+                            ticketNumber: ticketInfo.name.replace("Ticket: ", ""),
                             winMultiplier: Number(ticketInfo.winMultiplier.value)
                         } as LotteryEntry)
                     }
@@ -147,7 +162,7 @@ const run_lottery = async () => {
                             tx: sign
                         } as WinningAssets);
                     } else if (win.nft) {
-                        const sign = await sendSPLToken(win.address, winningTicket, 1);
+                        const sign = await sendSPLToken(win.address, winningTicket, 1, true);
                         winAssets.push({
                             website: win.website,
                             amount: 1,
@@ -156,7 +171,7 @@ const run_lottery = async () => {
                         } as WinningAssets);
                     } else {
                         const amount = Number(winningTicket.winMultiplier) * Number(win.amount);
-                        const sign = await sendSPLToken(win.address, winningTicket, amount);
+                        const sign = await sendSPLToken(win.address, winningTicket, amount, false);
                         winAssets.push({
                             website: win.website,
                             amount: amount,
@@ -165,11 +180,12 @@ const run_lottery = async () => {
                         } as WinningAssets);
                     }
                 }
-                console.log(winningTicket.img);
+
                 const result = {
                     winner: winningTicket.owner,
                     ticket: winningTicket.ticket,
-                    ticketUrl: winningTicket.img,
+                    ticketUrl: winningTicket.ticketUrl,
+                    ticketNumber: winningTicket.ticketNumber,
                     assets: winAssets
                 } as LotteryResult;
 
@@ -190,4 +206,6 @@ const run_lottery = async () => {
     }
 }
 
-run_lottery().then(r => console.log("fertig"));
+cron.schedule('*/1 * * * *', function(){
+    run_lottery().then(r => console.log("checked lotteries"));
+});
