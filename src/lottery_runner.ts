@@ -15,7 +15,7 @@ import * as cron from "node-cron";
 const fsPromises = fs.promises;
 
 
-const NETWORK = "devnet";
+const NETWORK = "mainnet-beta";
 
 const shuffleArray = (array: any[]): any => {
     for (let i = array.length - 1; i > 0; i--) {
