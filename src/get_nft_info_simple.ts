@@ -1,7 +1,7 @@
 import {getMetaDataFromMint} from "./helpers/nft";
 import {web3} from "@project-serum/anchor";
 
-const nftAddress = '9F7U1hukWjsgjzXKahgd5gxE5ysq3nRuF3q3moMeeUzN';
+const nftAddress = '811VuVpZAX3SCyXb8nCSQjkv1tPgKqcaWrXJz8piJiek';
 const solConnection = new web3.Connection(web3.clusterApiUrl('mainnet-beta'));
 
 const getInfo = async () => {

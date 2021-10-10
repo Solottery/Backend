@@ -5,7 +5,7 @@
       "time": "2021-10-09T13:00:00+00:00",
       "description": "This is the beta test to check the lottery in production. To win is a ticket and a grain of sand of SOL",
       "id": 1,
-      "finished": false,
+      "finished": true,
       "assets": [
         {
           "name": "Solottery Ticket",
@@ -27,7 +27,167 @@
         }
       ],
       "winner": {
+        "winner": "75ZDCkiK9tPLpLFwFhbZsQvYJk64JCb284WfR3HtBoU5",
+        "ticket": "BMQ2vzfMBcw4XL9KGPQYSUinwUnDqBJ63ZWLHChWYrq9",
+        "ticketUrl": "https://www.arweave.net/WwXyCbvWHbWaMtK4KvZ6Lsj12EB0qUWHhgeLh5lMz-g?ext=png",
+        "ticketNumber": "0315",
+        "assets": [
+          {
+            "website": "https://solottery.fun/home",
+            "amount": 1,
+            "name": "Solottery Ticket",
+            "tx": "5y8y4m2BukLfZXBU24XYQamg2hDRBP9x4Cdg2X4YNPPtXCSkw3cRz5ShrGhx87DHLBJuFN6j12qWLTRdDBScUbHK"
+          },
+          {
+            "website": "https://www.coingecko.com/en/coins/solana",
+            "amount": 0.01,
+            "name": "Solana",
+            "tx": "2svcYrtW9x9zUcf6C2aNjX3FKwUmxPVUCeiBFjU5RSrc2bzELURdQzuD7mhWjkdR2drdaAoh1DSeE5YjS9EsAzJ4"
+          }
+        ]
       }
+    },
+    {
+      "name": "AI: Artificial Irrelevants",
+      "time": "2021-10-10T20:00:00+00:00",
+      "description": "In time for Artificial Irrelevants wave 4 our first drop is a cute robot.",
+      "id": 2,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Irrelevant #2485",
+          "website": "https://www.irrelevants.com/",
+          "address": "73LhqGWkwxavxzTf5sjY9Ytu1Qioq6uc7bs1Qb1cMRKL",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/Qj38HkUpfh04RQdU-lVPGMh79CGaFrFoidP4WAiyTjQ?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {}
+    },
+    {
+      "name": "Genesis Lottery 10.10.2021 - 10.16.2021",
+      "time": "2021-10-11T20:00:00+00:00",
+      "description": "Today is a good day – you can win 1 SOL.",
+      "id": 3,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Solana",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 1,
+          "nft": false,
+          "preview": "solana.png",
+          "sol": true
+        }
+      ],
+      "winner": {}
+    },
+    {
+      "name": "Genesis Lottery 10.10.2021 - 10.16.2021",
+      "time": "2021-10-12T20:00:00+00:00",
+      "description": "Todays menu: 1 SOL.",
+      "id": 4,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Solana",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 1,
+          "nft": false,
+          "preview": "solana.png",
+          "sol": true
+        }
+      ],
+      "winner": {}
+    },
+    {
+      "name": "Genesis Lottery 10.10.2021 - 10.16.2021",
+      "time": "2021-10-13T20:00:00+00:00",
+      "description": "A SOL a day keeps the bankruptcy away. Todays Jackpot: 1 SOL.",
+      "id": 5,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Solana",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 1,
+          "nft": false,
+          "preview": "solana.png",
+          "sol": true
+        }
+      ],
+      "winner": {}
+    },
+    {
+      "name": "Thursday is space day!",
+      "time": "2021-10-14T20:00:00+00:00",
+      "description": "Todays jackpot includes a golden Space Bum and a NFTyStar!",
+      "id": 6,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Space Bums #6311",
+          "website": "https://www.irrelevants.com/",
+          "address": "73LhqGWkwxavxzTf5sjY9Ytu1Qioq6uc7bs1Qb1cMRKL",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/OaqaHRy6FjVMNMiq7Nhx9pYdzzyOdqetDv6xVruQWKE?ext=png",
+          "sol": false
+        },
+        {
+          "name": "NFTy Star #4",
+          "website": "https://nftystars.nftprojects.app/",
+          "address": "811VuVpZAX3SCyXb8nCSQjkv1tPgKqcaWrXJz8piJiek",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/UbLMhLhr7qAxQD3I_sO7xIFXzRCJbasYh-eH0nTPVb8?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {}
+    },
+    {
+      "name": "Genesis Lottery 10.10.2021 - 10.16.2021",
+      "time": "Friday is jackpot day. 1 SOL is ready to be won.",
+      "description": "In time for the last drop our first drop is a cute robot.",
+      "id": 7,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Solana",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 1,
+          "nft": false,
+          "preview": "solana.png",
+          "sol": true
+        }
+      ],
+      "winner": {}
+    },
+    {
+      "name": "Genesis Lottery 10.10.2021 - 10.16.2021",
+      "time": "2021-10-16T20:00:00+00:00",
+      "description": "Last day of the genesis jackpot week. Win 1 SOL.",
+      "id": 8,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Solana",
+          "website": "https://www.coingecko.com/en/coins/solana",
+          "address": "",
+          "amount": 1,
+          "nft": false,
+          "preview": "solana.png",
+          "sol": true
+        }
+      ],
+      "winner": {}
     }
   ]
 }

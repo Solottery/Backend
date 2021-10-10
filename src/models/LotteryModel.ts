@@ -1,3 +1,4 @@
+import exp from "constants";
 
 export interface LotteryModel {
     id: number;
@@ -41,4 +42,8 @@ export interface WinningAssets {
     amount: number;
     website: string;
     preview: string;
+}
+
+export interface Blacklist{
+    wallets: string[];
 }

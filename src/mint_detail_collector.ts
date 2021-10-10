@@ -29,7 +29,7 @@ const collectDetailOfMints = async () => {
             const type = mintInfo.ticketType.value;
             ticketTypes.set(type, (ticketTypes.get(type) ?? 0) + 1);
 
-            await snooze(1000);
+            await snooze(1500);
         }
 
         // evaluate rarity ranking
@@ -69,7 +69,7 @@ const collectDetailOfMints = async () => {
     }
 }
 
-cron.schedule('*/2 * * * *', function(){
+cron.schedule('*/3 * * * *', function(){
     collectDetailOfMints().then(() => {
         console.log("Collected");
     });

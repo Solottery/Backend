@@ -136,7 +136,7 @@ export const getAllMintedNfts = async (connection: Connection): Promise<string[]
                 }
             }
         }
-        await snooze(1000);
+        await snooze(2000);
     }
 
     return mints;

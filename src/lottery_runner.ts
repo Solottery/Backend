@@ -4,7 +4,7 @@
  */
 
 import fs from "fs";
-import {LotteryEntry, LotteryModel, LotteryResult, WinningAssets} from "./models/LotteryModel";
+import {Blacklist, LotteryEntry, LotteryModel, LotteryResult, WinningAssets} from "./models/LotteryModel";
 import {LotteryTicket} from "./models/lottery-ticket";
 import crypto from "crypto";
 import {Keypair, PublicKey} from "@solana/web3.js";
@@ -15,7 +15,7 @@ import * as cron from "node-cron";
 const fsPromises = fs.promises;
 
 
-const NETWORK = "mainnet-beta";
+const NETWORK = "devnet";
 
 const shuffleArray = (array: any[]): any => {
     for (let i = array.length - 1; i > 0; i--) {
@@ -127,12 +127,18 @@ const run_lottery = async () => {
         // lottery time
         if (new Date(runningLotteries[0].time) <= new Date()) {
             let mintFile = await fsPromises.readFile(lottery_data_path + 'mints_details.json', 'utf-8');
+            let blackListFile = await fsPromises.readFile('./lottery_data/black-list.json', 'utf-8');
+            let blackList = JSON.parse(blackListFile) as Blacklist;
+
             if (mintFile) {
                 const tickets = JSON.parse(mintFile) as LotteryTicket[];
                 const lotteryList = [];
                 // create lottery list with tickets
                 for (let ticket in tickets) {
                     let ticketInfo = tickets[ticket]
+                    if(blackList.wallets.includes(ticketInfo.owner)){
+                        continue;
+                    }
                     for (let i = 0; i < Number(ticketInfo.playMultiplier.value); i++) {
                         lotteryList.push({
                             owner: ticketInfo.owner,
