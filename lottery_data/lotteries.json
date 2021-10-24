@@ -291,7 +291,7 @@
       "time": "2021-10-24T21:00:00+00:00",
       "description": "A sollyfish is on the line",
       "id": 9,
-      "finished": true,
+      "finished": false,
       "assets": [
         {
           "name": "Sollyfish #621",
@@ -311,7 +311,7 @@
       "time": "2021-10-25T19:00:00+00:00",
       "description": "The team of Frking Sausages created a special custom sausage only for us!",
       "id": 10,
-      "finished": true,
+      "finished": false,
       "assets": [
         {
           "name": "$Frking Sausages$",
@@ -331,7 +331,7 @@
       "time": "2021-10-26T20:00:00+00:00",
       "description": "Thanks to the team of Dhevas Vision!",
       "id": 11,
-      "finished": true,
+      "finished": false,
       "assets": [
         {
           "name": "'Dhevas Neon #148",
