@@ -18,11 +18,15 @@ const collectCandyMachineMints = async () => {
     }catch {
         savedAmount = 0;
     }
-    console.log(savedAmount);
+
+    let presale_mint_file = await fsPromises.readFile('presale_mints.json', 'utf-8');
+    let presale_mints = JSON.parse(presale_mint_file);
 
     let state = await getCandyMachineState(solConnection);
-    if(state.itemsRedeemed > savedAmount){
+    if(state.itemsRedeemed > savedAmount - (presale_mints.length)){
+
         let result = await getAllMintedNfts(solConnection);
+        result = result.concat(presale_mints);
         let data = JSON.stringify(result, null, 2);
         fs.writeFile('mints.json', data, (err) => {
             if (err) throw err;

@@ -18,8 +18,14 @@ export const TOKEN_PROGRAM_ID = new PublicKey(
   'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
 );
 
+// presale
+// export const MY_CANDY_MACHINE_ID = new PublicKey(
+//     'xETopM1qMvacbd5FzEzeWxeCtBKgRzoQBTKC954eRZU'
+// );
+
+// wave 1
 export const MY_CANDY_MACHINE_ID = new PublicKey(
-    'xETopM1qMvacbd5FzEzeWxeCtBKgRzoQBTKC954eRZU'
+    '8G6dQYeQB1bk2NN8YSBxJFBSHwZhcyicwqrMkzJeMaZB'
 );
 
 export const CONFIG_ARRAY_START =
