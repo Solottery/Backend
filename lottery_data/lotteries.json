@@ -387,6 +387,33 @@
         }
       ],
       "winner": {}
+    },{
+      "name": "ASSSSS Day",
+      "time": "2021-10-28T20:00:00+00:00",
+      "description": "Deadass you get an ass",
+      "id": 11,
+      "finished": false,
+      "assets": [
+        {
+          "name": "ASS #2075",
+          "website": "https://www.deadass.io/",
+          "address": "Hu1GxUt99hJeqvPqbYqguCEM2ua6BGn1GUDWfiQBWtRy",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://rzsbypao5gca35om5y7jv7dfnfinv6cwinmr2drotvfnqs47rpoa.arweave.net/jmQcPA7phA31zO4-mvxlaVDa-FZDWR0OLp1K2Eufi9w/?ext=png",
+          "sol": false
+        },
+        {
+          "name": "ASS #386",
+          "website": "https://www.deadass.io/",
+          "address": "2PZNJhd3WxiXFaYsH9gb3FcsmkuZncFabPemGXXdSceh",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://3yxtbf7u5ecjulayx33r4aap3ifako5r72gp7d7edxosfthzlvua.arweave.net/3i8wl_TpBJosGL73HgAP2goFO7H-jP-P5B3dIsz5XWg/?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {}
     }
   ]
 }
