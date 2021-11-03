@@ -522,28 +522,8 @@
       }
     },
     {
-      "name": "Eyeballz Day",
-      "time": "2021-11-07T20:00:00+00:00",
-      "description": "We love the eyeballz",
-      "id": 17,
-      "finished": false,
-      "assets": [
-        {
-          "name": "Eyeballz #2407",
-          "website": "https://digitaleyes.market/collections/Eyeballz",
-          "address": "A3q7hcbowPA4xQZH8BtQDFVJEBhDcGCPSwqYY55kDayE",
-          "amount": 1,
-          "nft": true,
-          "preview": "https://www.arweave.net/PvB8gknS7WtZ4-9j-Iy6y6S9vye3ALcKUeHPOTxfWH4?ext=png",
-          "sol": false
-        }
-      ],
-      "winner": {
-      }
-    },
-    {
       "name": "Vampires Of SOL",
-      "time": "2021-11-08T20:00:00+00:00",
+      "time": "2021-11-07T20:00:00+00:00",
       "description": "Vampires Of SOL",
       "id": 18,
       "finished": false,
