@@ -525,16 +525,56 @@
       "name": "Vampires Of SOL",
       "time": "2021-11-07T20:00:00+00:00",
       "description": "Vampires Of SOL",
+      "id": 17,
+      "finished": false,
+      "assets": [
+        {
+          "name": "VampiresOfSOL #1442",
+          "website": "https://digitaleyes.market/collections/Vampires%20Of%20SOL",
+          "address": "GnUmMSDPstp3XfvDyHMPfFF3Mf2nLBTVyEXqMgFxP87x",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/I9EV__JZ6196BO4BbVHoSBHqLnWI9PbOkD_xjdArvc0?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {
+      }
+    },
+    {
+      "name": "SGF Day",
+      "time": "2021-11-08T20:00:00+00:00",
+      "description": "Sleeping blue chip SGF",
       "id": 18,
       "finished": false,
       "assets": [
         {
           "name": "Juliette Orwig",
-          "website": "https://digitaleyes.market/collections/Vampires%20Of%20SOL",
-          "address": "HiTH4akKfYw1o811YCfCvtCmTfMwKG8SfRfDDhkuVDU9",
+          "website": "https://sgfunited.com/",
+          "address": "Hu1GxUt99hJeqvPqbYqguCEM2ua6BGn1GUDWfiQBWtRy",
           "amount": 1,
           "nft": true,
           "preview": "https://www.arweave.net/dYS3fO-58LEgqeAdoOMM1UslF88dR8LcG2wNgeZNf04?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {
+      }
+    },
+    {
+      "name": "Woof Woof",
+      "time": "2021-11-05T20:00:00+00:00",
+      "description": "WOOFENOMICS",
+      "id": 18,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Woof Woof",
+          "website": "https://www.coingecko.com/en/coins/woof-token",
+          "address": "9nEqaUcb16sQ3Tn1psbkWqyhPdLmfHWjKGymREjsAgTE",
+          "amount": 15000,
+          "nft": false,
+          "preview": "https://woofsolana.com/img/logo2.png",
           "sol": false
         }
       ],
