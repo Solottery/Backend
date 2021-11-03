@@ -368,21 +368,15 @@
         }
       ],
       "winner": {
-        "winner": "8EJeNdXt64UpQHhE9n1G8JRYyaiQK8PVaVXX5H2frF61",
-        "ticket": "6YncsAbRfNZL7vXR1t18b8n2Xys8KfTyn29fEsUdiNeC",
-        "ticketUrl": "https://www.arweave.net/RNak6-IPJThk8mBxdMVXQ7aY9GfeIPs_YCh-2G1KROk?ext=png",
-        "ticketNumber": "8740",
+        "winner": "75ZDCkiK9tPLpLFwFhbZsQvYJk64JCb284WfR3HtBoU5",
+        "ticket": "9F7U1hukWjsgjzXKahgd5gxE5ysq3nRuF3q3moMeeUzN",
+        "ticketUrl": "https://www.arweave.net/ZwRt23SrnRyhu9VGeQSfMwWk_DQ19O79_MBPjDeaI60?ext=png",
+        "ticketNumber": "6884",
         "assets": [
           {
-            "website": "https://www.deadass.io/",
+            "website": "https://nftystars.nftprojects.app/",
             "amount": 1,
-            "name": "ASS #2075",
-            "tx": ""
-          },
-          {
-            "website": "https://www.deadass.io/",
-            "amount": 1,
-            "name": "ASS #386",
+            "name": "Nfty Star #96",
             "tx": ""
           }
         ]
@@ -465,6 +459,106 @@
             "tx": "https://explorer.solana.com/tx/5ke3JfwaN4VGk1wrA3ZhfRPUfjxreQKSDAEcf1YVP9MwBoqSew8kr7oRvhtJZRukymDdGTTa8dqj5yxj14Dg9WXr"
           }
         ]
+      }
+    },
+    {
+      "name": "SGF Day",
+      "time": "2021-11-04T20:00:00+00:00",
+      "description": "Sleeping blue chip SGF",
+      "id": 14,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Chelsea Duncan",
+          "website": "https://sgfunited.com/",
+          "address": "Hu1GxUt99hJeqvPqbYqguCEM2ua6BGn1GUDWfiQBWtRy",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/hbtaLFRELXOoTW5dCTcqih9Y8z6k0qKv96fyzTewNbs?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {
+      }
+    },
+    {
+      "name": "OOOGI OOOGI",
+      "time": "2021-11-05T20:00:00+00:00",
+      "description": "Oogi Oogi",
+      "id": 15,
+      "finished": false,
+      "assets": [
+        {
+          "name": "OOGI Coin",
+          "website": "https://oogi.com/",
+          "address": "H7Qc9APCWWGDVxGD5fJHmLTmdEgT9GFatAKFNg6sHh8A",
+          "amount": 10000,
+          "nft": false,
+          "preview": "https://oogi.com/assets/images/hp-image.png",
+          "sol": false
+        }
+      ],
+      "winner": {
+      }
+    },
+    {
+      "name": "Eyeballz Day",
+      "time": "2021-11-06T20:00:00+00:00",
+      "description": "We love the eyeballz",
+      "id": 16,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Eyeballz #2407",
+          "website": "https://digitaleyes.market/collections/Eyeballz",
+          "address": "A3q7hcbowPA4xQZH8BtQDFVJEBhDcGCPSwqYY55kDayE",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/PvB8gknS7WtZ4-9j-Iy6y6S9vye3ALcKUeHPOTxfWH4?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {
+      }
+    },
+    {
+      "name": "Eyeballz Day",
+      "time": "2021-11-07T20:00:00+00:00",
+      "description": "We love the eyeballz",
+      "id": 17,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Eyeballz #2407",
+          "website": "https://digitaleyes.market/collections/Eyeballz",
+          "address": "A3q7hcbowPA4xQZH8BtQDFVJEBhDcGCPSwqYY55kDayE",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/PvB8gknS7WtZ4-9j-Iy6y6S9vye3ALcKUeHPOTxfWH4?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {
+      }
+    },
+    {
+      "name": "Vampires Of SOL",
+      "time": "2021-11-08T20:00:00+00:00",
+      "description": "Vampires Of SOL",
+      "id": 18,
+      "finished": false,
+      "assets": [
+        {
+          "name": "Juliette Orwig",
+          "website": "https://digitaleyes.market/collections/Vampires%20Of%20SOL",
+          "address": "HiTH4akKfYw1o811YCfCvtCmTfMwKG8SfRfDDhkuVDU9",
+          "amount": 1,
+          "nft": true,
+          "preview": "https://www.arweave.net/dYS3fO-58LEgqeAdoOMM1UslF88dR8LcG2wNgeZNf04?ext=png",
+          "sol": false
+        }
+      ],
+      "winner": {
       }
     }
   ]
